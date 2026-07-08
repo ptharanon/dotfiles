@@ -25,21 +25,4 @@
     finder.CreateDesktop = false;          # clean desktop
     trackpad.Clicking = true;              # tap to click
   };
-  nix-homebrew = {
-    enable = true;
-    inherit user;
-  };
-  homebrew = {
-    enable = true;
-    onActivation.cleanup = "zap";  # remove anything not listed here
-    onActivation.autoUpdate = true;
-    onActivation.extraFlags = [ "--force" ];
-    brews = [
-      "herdr"
-    ];
-    casks = [
-      "wezterm"
-      "claude-code"
-    ];
-  };
 }
