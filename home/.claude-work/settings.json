@@ -2,5 +2,8 @@
   "model": "opus[1m]",
   "effortLevel": "high",
   "theme": "dark-daltonized",
-  "preferredNotifChannel": "auto"
+  "preferredNotifChannel": "auto",
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true
+  }
 }
